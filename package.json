@@ -1,0 +1,39 @@
+{
+  "name": "lifx-light-monitor",
+  "version": "0.0.1",
+  "description": "light monitor for lifx bulbs",
+  "main": "index.js",
+  "dependencies": {
+    "ansi-term": ">=0.0.1",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^2.5.3",
+    "chalk": "^1.1.1",
+    "dashes.js": "0.0.7",
+    "drawille-canvas-blessed-contrib": ">=0.0.1",
+    "lodash": "^4.2.1",
+    "map-canvas": ">=0.1.5",
+    "marked": "^0.3.3",
+    "marked-terminal": "^1.5.0",
+    "memory-streams": "^0.1.0",
+    "memorystream": "^0.3.1",
+    "moment": "^2.11.2",
+    "node-lifx": "^0.5.1",
+    "node-pandoc": "^0.2.0",
+    "node-parse-api": "^0.3.8",
+    "picture-tube": "0.0.4",
+    "request": "^2.53.0",
+    "sparkline": "^0.1.1",
+    "strip-ansi": "^3.0.0",
+    "term-canvas": "0.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "author": "Tim Carlson (dotcarls@indiana.edu)",
+  "license": "ISC",
+  "devDependencies": {
+    "lifx": "^0.3.1",
+    "node-lifx": "^0.5.1"
+  }
+}
